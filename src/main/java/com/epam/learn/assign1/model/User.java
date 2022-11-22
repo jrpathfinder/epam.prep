@@ -14,7 +14,7 @@ public class User {
      * com.epam.learn.assign1.model.User Id. UNIQUE.
      * @return com.epam.learn.assign1.model.User Id.
      */
-    private long id;
+    private Long id;
     private String name;
     /**
      * com.epam.learn.assign1.model.User email. UNIQUE.

@@ -15,10 +15,11 @@ public class Ticket {
      * com.epam.learn.assign1.model.Ticket Id. UNIQUE.
      * @return com.epam.learn.assign1.model.Ticket Id.
      */
-    private long id;
+    private Long id;
     private Event event;
     private User user;
     private Category category;
     private int place;
+    private boolean booked;
 
 }
