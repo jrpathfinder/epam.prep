@@ -1,0 +1,43 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "title": "Event1",
+      "date": "22-10-2022 10:15:55 AM"
+    },
+    {
+      "id": 2,
+      "title": "Event1",
+      "date": "22-10-2022 10:15:55 AM"
+    }
+  ],
+  "tickets": [
+    {
+      "id": 1,
+      "event": {
+        "id": 1,
+        "title": "Event1",
+        "date": "22-10-2022 10:15:55 AM"
+      },
+      "user": {
+        "id": 1,
+        "name": "User1",
+        "email": "user1@bk.ru"
+      },
+      "place": 1,
+      "category": 3
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "User1",
+      "email": "user1@bk.ru"
+    },
+    {
+      "id": 2,
+      "name": "User2",
+      "email": "user2@bk.ru"
+    }
+  ]
+}
